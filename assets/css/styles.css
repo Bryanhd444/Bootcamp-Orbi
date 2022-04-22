@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: #42464D;
+    margin: 0;
+}
+h1{
+    margin: 10px;
+}
+
+.squire{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #FFFEF2;
+    display: inline-block;
+    padding: 30px;
+    font-size: 50px;
+    margin: 5px;
+    cursor: pointer;
+    color: transparent;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+    margin: 0;
+
+}
+
+.textPlayer, .textWinner{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    margin: 10px;
+}
+
+button{
+    text-align: center;
+    background-color: #F37748;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: 'transparent';
+    color: #FFF;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}

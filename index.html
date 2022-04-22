@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Jogo da velha</title>
+</head>
+
+<body>
+    <header class="title">
+        <h1>Jogo da velha</h1>
+    </header>
+
+    <header>
+        <div>
+            <div id="1" class="squire" onclick="onClick(this.id)">-</div>
+            <div id="2" class="squire" onclick="onClick(this.id)">-</div>
+            <div id="3" class="squire" onclick="onClick(this.id)">-</div>
+        </div>
+
+        <div>
+            <div id="4" class="squire" onclick="onClick(this.id)">-</div>
+            <div id="5" class="squire" onclick="onClick(this.id)">-</div>
+            <div id="6" class="squire" onclick="onClick(this.id)">-</div>
+        </div>
+
+        <div>
+            <div id="7" class="squire" onclick="onClick(this.id)">-</div>
+            <div id="8" class="squire" onclick="onClick(this.id)">-</div>
+            <div id="9" class="squire" onclick="onClick(this.id)">-</div>
+        </div>
+    </header>
+
+    <header class="textPlayer">
+        <label> Jogador:</label>
+        <label id="Jogador-selecionado"> </label>
+    </header>
+
+    <header class="textWinner">
+        <label> Vencedor:</label>
+        <label id="vencedor-selecionado"></label>
+    </header>
+
+    <header>
+        <button onclick="Restart()"> Reiniciar </button>
+    </header>
+
+</body>
+
+<script src="assets/js/scripts.js"></script>
+
+</html>
